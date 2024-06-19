@@ -1,0 +1,39 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #7aa1db;
+  transition: all 0.2s ease-in-out !important;
+
+  &:hover {
+    color: #999;
+  }
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  color: white;
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

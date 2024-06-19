@@ -1,0 +1,50 @@
+@import "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #7aa1db;
+  transition: all 0.2s ease-in-out !important;
+}
+a:hover {
+  color: #999;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+}
+input:active,
+textarea:active {
+  transform: scale(0.98);
+}
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  user-select: none;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: #fff;
+}

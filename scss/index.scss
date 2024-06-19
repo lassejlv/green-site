@@ -1,0 +1,18 @@
+@import "utils/variables";
+@import "utils/fonts";
+@import "utils/reset";
+@import "utils/mixins/container";
+@import "utils/mixins/default";
+
+* {
+  @include DefaultStyles();
+}
+
+body {
+  @include container();
+  
+  color: white;
+}
+
+
+
